@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Globo";
+  src: url(../assets/fonts/GlobotipoRounded-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Globobold";
+  src: url(../assets/fonts/GlobotipoRounded-Bold.ttf);
+}
+
+* {
+  font-family: "Globo", serif;
+}
+
+body {
+  background-color: #efeeee;
+}

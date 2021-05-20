@@ -1,0 +1,95 @@
+.palestrante {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.palestra {
+  margin-left: 5%;
+}
+
+.reverso {
+  flex-direction: row-reverse;
+  margin-right: 20%;
+}
+
+.normal {
+  margin-left: 18%;
+}
+
+.normal__texto {
+  padding-right: 10%;
+}
+
+.palestrante__texto {
+  text-align: center;
+  text-justify: distribute;
+}
+
+.palestrante__texto--titulo {
+  font-size: 2rem;
+  color: #ff6b0e;
+  font-family: 'Globobold';
+}
+
+.palestrante__texto--subtitulo {
+  font-size: 1rem;
+}
+
+.palestrante__texto--paragrafo {
+  margin-top: 2rem;
+  line-height: 1.5;
+}
+
+.palestrante__img--fotos {
+  width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+
+  .palestrante {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .normal {
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .normal img {
+    display: block;
+    margin-left: auto;
+  }
+
+  .reverso {
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .palestrante__texto--paragrafo {
+    font-size: 0.8rem;
+    width: 80%;
+    margin: 12px 30px;
+    line-height: 1.2;
+    margin-top: 10px;
+  }
+
+  .palestrante__texto--titulo {
+    font-size: 2rem;
+    color: #ff6b0e;
+    font-weight: bold;
+  }
+
+  .normal__texto {
+    padding-right: 0;
+  }
+}

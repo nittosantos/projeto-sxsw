@@ -1,0 +1,50 @@
+.login {
+  background: url("../assets/imgs/bg-login.jpg") center bottom;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  width: 100vw;
+  height: 100vh;
+}
+
+.login__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__container--logo {
+  margin-top: 12%;
+  width: 30%;
+}
+
+.login__container--titulo {
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 60px;
+}
+
+.login__container--input {  
+  width: 40%;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  border: none;
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+.login__container--botao {
+  margin-top: 40px;
+  border-radius: 50px;
+  border: none;
+  padding: 1rem 1rem;
+  font-size: 1.4rem;
+  background-color: #fff;
+  width: 12%;
+}
+
+.login__container--paragrafo {  
+  margin-top: 4%;
+  color: #fff;
+  font-size: 1.6rem;
+}
